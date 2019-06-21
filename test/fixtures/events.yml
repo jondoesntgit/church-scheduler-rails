@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+sabbath_school_001:
+  name: Sabbath School
+  start_time: 2019-06-22 09:00:00-07:00
+  event_template: sabbath_school
+  event_type: worship
+
+sabbath_worship_001:
+  name: Sabbath Worship
+  start_time: 2019-06-22 10:40:00-07:00
+  event_template: sabbath_worship
+  event_type: worship
+
+sabbath_school_002:
+  name: Sabbath School
+  start_time: 2019-06-29 09:00:00-07:00
+  event_template: sabbath_school
+  event_type: worship
+
+sabbath_worship_002:
+  name: Sabbath Worship
+  start_time: 2019-06-29 10:40:00-07:00
+  event_template: sabbath_worship
+  event_type: worship

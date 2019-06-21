@@ -1,13 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-pastoral:
-  name: Pastoral
-
 sabbath_school:
   name: Sabbath School
+  event_category: small_groups
 
-audio_visual:
-  name: Audio/Visual
-
-music:
-  name: Music
+worship_service:
+  name: Sabbath Worship Service
+  event_category: worship_service

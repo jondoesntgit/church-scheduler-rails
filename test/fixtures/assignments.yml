@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+sabbath_sermon_001:
+  name: Sermon
+  responsibility: sabbath_sermon (Responsibility)
+  event: sabbath_worship_001
+  order_index: 50
+  party: peter_pastor (User)
+  auxiliary_text: A nice sermon title
+
+sabbath_sermon_002:
+  name: Sermon
+  responsibility: sabbath_sermon (Responsibility)
+  event: sabbath_worship_002
+  order_index: 50
+  party: peter_pastor (User)
+  auxiliary_text: Another nice sermon title  
+
+special_music_001:
+  name: Special Music
+  responsibility: special_music (Responsibility)
+  event: sabbath_worship_001
+  order_index: 35
+  party: susy_singer (User)
+  auxiliary_text: Amazing Grace
+
+audio_visual_001:
+  name: Audio Visual Support
+  responsibility: audio_visual (Responsibility)
+  event: sabbath_school_001
+  order_index: -1
+  party: singer_susy (User)
+
+mission_video_001:
+  name: Mission Video
+  responsibility: Mission Video
+  order_index: 10
+  party: eric_elder (User)
+  auxiliary_text: Feeding the needy
+
+sabbath_school_lesson_001:
+  name: Sabbath School Lesson
+  responsibility: sabbath_school_lesson (Responsibility)
+  order_index: 20
+  auxiliary_text: Paul in Rome
+  party: larry_luddite (User)
+
+
+

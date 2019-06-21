@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+sabbath_sermon:
+  name: Sermon
+  department: pastoral
+  event_template: sabbath_worship
+  order_index: 50
+
+sabbath_school_lesson:
+  name: Sabbath School Lesson
+  department: sabbath_school
+  event_template: sabbath_school
+  order_index: 20
+
+mission_video:
+  name: Mission Video
+  department: sabbath_school
+  order_index: 10
+
+audio_visual:
+  name: Audio Visual Support
+  department: AV
+
+special_music:
+  name: Special Music
+  department: music
