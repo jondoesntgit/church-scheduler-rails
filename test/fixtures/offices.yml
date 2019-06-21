@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pastor:
+  title: Pastor
+  department: pastoral
+  is_admin: true
+
+church_secretary:
+  title: Church Secretary
+  department: pastoral
+  is_admin: true
+
+sabbath_school_superintendant:
+  title: Sabbath School Superintendent
+  department: sabbath_school
+
+sabbath_school_teacher:
+  title: Sabbath School Teacher
+  department: sabbath_school

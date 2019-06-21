@@ -26,3 +26,8 @@ eric_elder:
 larry_luddite: # Has no password
   first_name: Larry
   last_name: Luddite
+
+sarah_secretary:
+  first_name: Sarah
+  last_name: Secretary
+  email: sarah.secretary@example.com

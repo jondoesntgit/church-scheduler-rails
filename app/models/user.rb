@@ -3,9 +3,12 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable
-         # validatable
+         # :validatable
+
+  # TODO: Only enforce uniqueness if null
 
   has_and_belongs_to_many :groups
+  has_and_belongs_to_many :offices, :through => :officers
 
   def full_name
     "#{first_name} #{last_name}"

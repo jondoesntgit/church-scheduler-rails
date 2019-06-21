@@ -1,0 +1,16 @@
+peter_pastor:
+  user: peter_pastor
+  office: pastor
+
+sarah_secretary:
+  user: sarah_secretary
+  office: church_secretary
+
+superintendent:
+  user: eric_elder
+  office: sabbath_school_superintendent
+  is_head: true
+
+teacher_one:
+  user: larry_luddite
+  office: sabbath_school_teacher
