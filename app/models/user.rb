@@ -14,6 +14,10 @@ class User < ApplicationRecord
     "#{first_name} #{last_name}"
   end
 
+  def display_name
+    full_name
+  end
+
   # Don't require passwords
   def email_required?
     false

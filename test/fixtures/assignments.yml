@@ -29,7 +29,7 @@ audio_visual_001:
   responsibility: audio_visual (Responsibility)
   event: sabbath_school_001
   order_index: -1
-  party: singer_susy (User)
+  party: timmy_technical (User)
 
 mission_video_001:
   name: Mission Video

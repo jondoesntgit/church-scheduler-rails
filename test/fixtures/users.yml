@@ -31,3 +31,8 @@ sarah_secretary:
   first_name: Sarah
   last_name: Secretary
   email: sarah.secretary@example.com
+
+timmy_technical:
+  first_name: Timmy
+  last_name: Technical
+  email: timmy.technical@example.com
