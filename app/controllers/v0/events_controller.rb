@@ -4,8 +4,8 @@ class V0::EventsController < ApplicationController
         :events => Event.all.map { |event| 
         {
           :name => event.display_name,
-          :start_time => event.start_time,
-          :end_time => event.end_time,
+          :start_time => event.start_time.strftime("%Y-%m-%dT%H:%M:%S%:z"),
+          :end_time => event.end_time&.strftime("%Y-%m-%dT%H:%M:%S%:z"),
           :event_components => event.assignments.map { |assignment| 
           {
             :name => assignment.name,
