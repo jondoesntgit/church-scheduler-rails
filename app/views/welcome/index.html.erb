@@ -1,0 +1,9 @@
+<h1>Welcome#index</h1>
+
+<%= link_to('New Event', new_event_path) %>
+
+<ul>
+<% @events.each do |event| %>
+    <li><%= link_to(event.name, edit_event_path(event)) %></li>
+<% end %>
+</ul>
