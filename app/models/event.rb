@@ -2,7 +2,7 @@ class Event < ApplicationRecord
     belongs_to :event_template
     belongs_to :event_type
     has_many :assignments
-
+    accepts_nested_attributes_for :assignments
     def display_name
         if name
             return name

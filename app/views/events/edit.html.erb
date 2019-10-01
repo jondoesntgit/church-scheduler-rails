@@ -1,1 +1,27 @@
 Editing <%=@event.name %>
+
+<h1> <%= @event.name %></h1>
+
+Runsheet:
+
+<ul>
+<% @event.assignments.each do |assignment| %>
+    <li> 
+    <%= assignment.name %> — <%= assignment.party.full_name %>
+    <%= assignment.auxiliary_text %>
+<% end %>
+</ul>
+
+<%= form_for @event do |form| %>
+    <ul>
+    <% @event.assignments.each do |assignment| %>
+        <li>
+        <%= form.nested_fields_for :assignments do |assignments_form| %>
+            <%= assignments_form.text_field :name %>
+            <%= assignments_form.text_field :party %>
+            <%= assignments_form.text_field :auxiliary_text %>
+        <% end %>
+        </li>
+    <% end %>
+    </ul>
+<% end %>
